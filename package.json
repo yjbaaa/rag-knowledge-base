@@ -1,0 +1,13 @@
+﻿{
+  "name": "rag-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "openai": "^4.85.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.8.0",
+    "@netlify/functions": "^3.0.0"
+  }
+}

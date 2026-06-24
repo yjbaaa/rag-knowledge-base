@@ -1,0 +1,38 @@
+# ========== RAG 核心框架 ==========
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-huggingface>=0.1.0
+langchain-text-splitters>=0.3.0
+
+# ========== 向量数据库 ==========
+chromadb>=0.5.0
+
+# ========== Embedding 模型 ==========
+openai>=1.50.0
+tiktoken>=0.7.0
+
+# ========== 文档解析 ==========
+pypdf>=4.0.0
+python-docx>=1.1.0
+markdown>=3.6
+beautifulsoup4>=4.12.0
+lxml>=5.3.0
+
+# ========== 检索增强 ==========
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+
+# ========== Web 框架 ==========
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sse-starlette>=2.1.0
+
+# ========== 前端 ==========
+streamlit>=1.38.0
+gradio>=4.44.0
+
+# ========== 工具 ==========
+python-dotenv>=1.0.0
+pydantic>=2.9.0
+pydantic-settings>=2.5.0

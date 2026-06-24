@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / config
+.env
+.env.local
+
+# Runtime data / caches
+db/
+logs/
+*.sqlite3
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HF model cache
+.cache/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Netlify deployment artifacts
+.netlify/
+
+# Temp / patch / debug scripts
+_patch_*.py
+_write_*.py
+_fix_dedup.py
+_go.py
+_deploy_update.py
+
+# Logs and error output
+*.txt
+!requirements.txt
+nul
+
+# Personal data / uploaded documents
+data/
+
+# Misc
+start_services.bat
